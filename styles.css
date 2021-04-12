@@ -1,0 +1,100 @@
+body {
+  max-width: 90%;
+  margin: auto;
+  background: linear-gradient(90deg, rgb(236, 236, 236), rgb(174, 181, 188));
+  font-family: Open Sans;
+ /* background-image: url("https://media.istockphoto.com/photos/fog-background-picture-id845785528?k=6&m=845785528&s=170667a&w=0&h=CVbhwzc3xB4Yr2pOvOM539pmxwx_N_3UbryoE99c7iw=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;*/
+}
+
+.main_title {
+  font-family: Fantasy;
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.138888889;
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.date {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: gray;
+  padding-left: 40px;
+  background-color: yellow;
+  
+}
+
+.two_people {
+  display: block;
+  float: right;
+  margin: 25px 17px 25px 10px;
+}
+
+blockquote {
+  width: 45%;
+  margin: auto;
+  font-size: 160%;
+  background: lightgray;
+  border-left:3px dashed;
+  padding-left:30px;
+  margin: 25px auto;
+}
+
+q, .villagers, .farmer {
+  border-left-color: yellow;
+  width: 45%;
+  margin: auto;
+  font-size: 160%;
+  background: lightgray;
+  border-left:3px dashed;
+  padding-left:30px;
+  margin: 80px auto;
+}
+
+.adjective_one {
+  text-transform: capitalize;
+  color: green;
+}
+
+.adjective_two {
+  text-transform: capitalize;
+  color: red;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 5px;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  background-color: lightgray;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+figcaption {
+caption-side:bottom;
+}
+
+.notification{
+  background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
